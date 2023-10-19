@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(92, 50, 229);
+}
+
+header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content {
+    max-width: 400px;
+    text-align: center;
+    margin-left: 40%;
+}
+.abdulazim{
+    width: 200px;
+    height: 250px;
+    border: 5px rgb(242, 250, 9);
+    background-color: rgb(94, 175, 13);
+    transition: 6s;
+    border-radius: 40px 110px 40px 110px;
+
+}
+.abdulazim:hover{
+    transition: 6s;
+    border-radius: 45px 150px 40px 150px;
+    box-shadow: 0px 0px 10px 5px rgb(143, 234, 15);
+    background-color: rgb(213, 242, 98);
+   
+}
+h2{
+    color: rgb(245, 245, 3);
+}
+h3{
+    color:rgb(245, 245, 3);
+}
+h4{
+    color:rgb(245, 245, 3);
+}
+li{
+    color: rgb(22, 212, 89);
+    list-style: none;
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
